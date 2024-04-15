@@ -16,3 +16,5 @@ for (let a = 1; a <= 100; a++) {
   }
 }
 // 1, 2, Fizz, 4, Buzz, Fizz, 7, 8, Fizz, Buzz, 11,...
+
+// Part 2: Prime Time
