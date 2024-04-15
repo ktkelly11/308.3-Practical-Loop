@@ -18,16 +18,16 @@ for (let a = 1; a <= 100; a++) {
 // 1, 2, Fizz, 4, Buzz, Fizz, 7, 8, Fizz, Buzz, 11,...
 
 // Part 2: Prime Time
-for (let n = 9; n + 1 <= 100; n++) {
+for (let n = 9; n <= 100; n++) {
   let prime = true;
   for (let p = 2; p < n; p++) {
     if (n % p == 0) {
       prime = false;
-      p = n + 1;
+      p = n;
       break;
     }
   }
-  if (prime && n + 1 != 1) {
+  if (prime && n != 1) {
     console.log(`${n} is the next prime number`);
     break;
   }
@@ -54,3 +54,9 @@ console.log(myString);
 // }
 
 // Second Attempt
+// let newString = myString.split("\n");
+// let column = ",";
+
+// for (i=0; i<=myString; i++){
+
+// }
